@@ -3,9 +3,113 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Sweet Weather</title>
+	<title>SweetWeather</title>
+	<style>
+		body{
+			background-color: #F2F4F6;
+			text-align: center;
+			padding : 30px;
+		}
+		.main-logo{
+			width : 385px;
+		}
+		h2 {
+		    font-size: 20px;
+		    color: #A9B2BC;
+		    line-height: 25px;
+		    text-transform: uppercase;
+		    font-weight: 300;
+		    text-align: center;
+		    display: block;
+		}
+		h3{
+			margin-top : 40px;
+		}
+		h3::after {
+		    content: "";
+		    background-color: #e2e5e8;
+		    height: 4px;
+		    width: 700px;
+		    left: 50%;
+		    margin-left: -350px;
+		    position: absolute;
+		    margin-top: 0px;
+		    border-radius: 2px;
+		}
+		p {
+		    max-width: 826px;
+		    margin: 30px auto;
+		    font-size: 17px;
+		    font-weight: 300;
+		    color: #848D94;
+		    line-height: 25px;
+		    text-align: left;
+		}
+	</style>
+	<link href='http://fonts.googleapis.com/earlyaccess/nanumgothic.css' rel='stylesheet' type='text/css'>
+	<script src="dist/snap.svg-min.js"></script>
+	 <script>
+        window.onload = function () {
+            var sunRays = Snap("#sunHair");
+            // Sun events
+            raysAnimation();
+
+            // Infinite animation for the sun rays
+            function raysAnimation(){
+                sunRays.stop().animate(
+                    { transform: 'r90,359.4,187'}, // Basic rotation around a point. No frills.
+                    10000, // Nice slow turning rays
+                    function(){ 
+                        sunRays.attr({ transform: 'rotate(0 359.4 187)'}); // Reset the position of the rays.
+                        raysAnimation(); // Repeat this animation so it appears infinite.
+                    }
+                );
+            }
+        };
+     </script>
 </head>
 
 <body>
-	Hello hello
+	<div>
+		<img class="main-logo" src= "images/sweet_weather_logo.png">
+
+		<h2>그날의 날씨를 알려주는 감성 위젯</h2>
+		<h3></h3>
+	</div>
+<div>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width ="400px" height ="300px" viewBox="0 0 500 450"xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFB900;}
+	.st1{fill:none;stroke:#FFB900;stroke-width:21;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:#BCDAE4;}
+	.st3{fill:#F2F4F6;}
+</style>
+<g id="Sun">
+	<circle id="sunBody" class="st0" cx="359.4" cy="187" r="76.1"/>
+	<g id="sunHair">
+		<line class="st1" x1="271.2" y1="98.5" x2="288.2" y2="116.1"/>
+		<line class="st1" x1="360.4" y1="60.5" x2="360.1" y2="84.9"/>
+		<line class="st1" x1="448.8" y1="99.6" x2="431.3" y2="116.7"/>
+		<line class="st1" x1="485.9" y1="188.2" x2="461.4" y2="187.8"/>
+		<line class="st1" x1="447.6" y1="277.3" x2="430.5" y2="259.8"/>
+		<line class="st1" x1="358.3" y1="315.7" x2="358.7" y2="291.3"/>
+		<line class="st1" x1="269.9" y1="276.5" x2="287.5" y2="259.5"/>
+		<line class="st1" x1="232.9" y1="188" x2="257.3" y2="188.4"/>
+	</g>
+</g>
+<g id="Cloud">
+	<g>
+		<path class="st2" d="M132.7,380.3c-46.9,0-85-38.1-85-85s38.1-85,85-85c0.6,0,1.1,0,1.7,0c2.5-21.9,12.4-42.1,28.4-57.7
+			c18.1-17.7,42.1-27.5,67.4-27.5c25.3,0,49.3,9.7,67.4,27.4c16,15.6,25.9,35.9,28.4,57.8c0.2,0,0.3,0,0.5,0c46.9,0,85,38.1,85,85
+			s-38.1,85-85,85H132.7z"/>
+		<path class="st3" d="M230.2,133.5c47.8,0,86.7,38.1,88,85.7c2.8-0.3,5.5-0.5,8.4-0.5c42.3,0,76.5,34.3,76.5,76.5
+			s-34.3,76.5-76.5,76.5c-38.3,0-155.5,0-193.9,0c-42.3,0-76.5-34.3-76.5-76.5s34.3-76.5,76.5-76.5c3.2,0,6.4,0.2,9.6,0.6
+			C143.4,171.7,182.3,133.5,230.2,133.5 M230.2,116.5c-27.6,0-53.7,10.6-73.4,29.9c-15.6,15.2-25.8,34.5-29.8,55.5
+			c-49,2.9-87.9,43.7-87.9,93.4c0,51.6,42,93.5,93.5,93.5h193.9c51.6,0,93.5-42,93.5-93.5c0-49.3-38.3-89.8-86.7-93.3
+			c-3.9-21-14.2-40.4-29.9-55.6C283.8,127.1,257.8,116.5,230.2,116.5L230.2,116.5z"/>
+	</g>
+</g>
+</svg>
+</div>
+
 </body>

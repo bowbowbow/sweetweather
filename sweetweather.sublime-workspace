@@ -1,0 +1,844 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"qn",
+				"qna_id"
+			],
+			[
+				"user_",
+				"user_model〔variable〕"
+			],
+			[
+				"noti",
+				"notice._id"
+			],
+			[
+				"no",
+				"notice_id"
+			],
+			[
+				"create",
+				"created_time"
+			],
+			[
+				"de",
+				"delete_image"
+			],
+			[
+				"talk",
+				"talk_id〔argument〕"
+			],
+			[
+				"chat",
+				"chatroom_model〔variable〕"
+			],
+			[
+				"bac",
+				"background_num〔variable〕"
+			],
+			[
+				"backgroud",
+				"background_image"
+			],
+			[
+				"backgrou",
+				"background_num〔variable〕"
+			],
+			[
+				"polic",
+				"policy_num"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"point",
+				"point_logs"
+			],
+			[
+				"cat",
+				"category_code"
+			],
+			[
+				"gps",
+				"gps_lat"
+			],
+			[
+				"creat",
+				"created_time"
+			],
+			[
+				"ser",
+				"server_check〔variable〕"
+			],
+			[
+				"gps_",
+				"gps_lng"
+			],
+			[
+				"profile_image",
+				"profile_image_url"
+			],
+			[
+				"get",
+				"getTime〔function〕"
+			],
+			[
+				"chatroom",
+				"chatroom_id"
+			],
+			[
+				"set",
+				"set_now_chatroom"
+			],
+			[
+				"sock",
+				"socket_connections"
+			],
+			[
+				"now",
+				"now_chatroom_id"
+			],
+			[
+				"chat_",
+				"chat_label_text〔variable〕"
+			],
+			[
+				"target",
+				"target_room_id〔variable〕"
+			],
+			[
+				"message",
+				"message_array"
+			],
+			[
+				"chatrom",
+				"chatroom_id"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"w",
+				"week_size"
+			],
+			[
+				"radi",
+				"radio_sum"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"pre",
+				"prescription-"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"dia",
+				"diagnosis_init"
+			],
+			[
+				"date",
+				"date_of_birth"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"tiem",
+				"timeStamp"
+			],
+			[
+				"su",
+				"surveys"
+			],
+			[
+				"time",
+				"timeStamp"
+			],
+			[
+				"sele",
+				"selectedLabel"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"ch",
+				"checkbox"
+			],
+			[
+				"eTic",
+				"eTicket"
+			],
+			[
+				"eTicketC",
+				"eTicketConsent"
+			],
+			[
+				"pa",
+				"paperTicket"
+			],
+			[
+				"file",
+				"fileUploadMsg"
+			],
+			[
+				"ticket",
+				"ticketList"
+			],
+			[
+				"tick",
+				"ticketList"
+			],
+			[
+				"click",
+				"clickedId"
+			],
+			[
+				"color",
+				"colorTemp"
+			],
+			[
+				"search",
+				"searchText"
+			],
+			[
+				"s",
+				"searchFunc"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 228,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"last_filter": "mongo",
+		"selected_items":
+		[
+			[
+				"mongo",
+				"MongoExec: Execute"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"git add",
+				"Git: Update Project Ignored Files"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git: cus",
+				"Git: Custom Command"
+			],
+			[
+				"git: push",
+				"Git: Push"
+			],
+			[
+				"git: pull",
+				"Git: Pull"
+			],
+			[
+				"git: com",
+				"Git: Commit"
+			],
+			[
+				"git: add",
+				"Git: Add Current File"
+			],
+			[
+				"git: cu",
+				"Git: Custom Command"
+			],
+			[
+				"git cus",
+				"Git: Custom Command"
+			],
+			[
+				"git ",
+				"Git: Init"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 489.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"help",
+			"exit",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/clsrn1581/Desktop/index.html",
+		"/Users/clsrn1581/Desktop/snap_svg/practice/sun.html",
+		"/Users/clsrn1581/Desktop/snap_svg/Snap.svg-0.4.1/demos/illustrated-infographic-coffee/demo.svg",
+		"/Users/clsrn1581/Desktop/snap_svg/practice/practice1.html",
+		"/Users/clsrn1581/Desktop/practice1.html",
+		"/Users/clsrn1581/Desktop/sublime text3/say/views/admin/dashboard.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/talk/talk_list.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/controllers/qna_controller.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/routes/qna_api.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/user/user_list.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/market/market_list.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/user/user_info.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/routes/user_api.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/base/nav.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/models/qnas.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/app.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/setting/notice_list.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/admin_routes/web.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/routes/setting_api.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/controllers/notice_controller.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/admin_routes/web_api.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/setting/notice_edit.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/setting/notice_view.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/setting/policy_view.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/admin_routes/web_policy.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/setting/policy_veiw.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/models/notices.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/controllers/user_controller.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/setting/app_setting.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/setting/app_setting",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/bot/edit_bot.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/controllers/talk_controller.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/chat/chat_monitoring.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/controllers/chatroom_controller.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/chat/bot_chat.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/base/head.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk_socket/app.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk_socket/routes/socketio.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk_socket/controllers/user_controller.js",
+		"/Users/clsrn1581/Library/Application Support/Sublime Text 3/Packages/User/SFTP.errors.log",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk_socket/sftp-config.json",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk_socket/package.json",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/controllers/market_controller.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk_chat/sftp-config.json",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/routes/socketio.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/admin_routes/web_chat_api.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/login.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/setting/policy_edit.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/models/users.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/routes/chat_api.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/auth.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/controllers/point_log_controller.js",
+		"/Users/clsrn1581/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/routes/web_api.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/routes/point_logs.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/routes/talk_api.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/routes/market_api.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/package.json",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/aws.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/routes/web.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/bot/create_bot.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/market/market_write.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/bot/bot_list.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/thumbnail.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/setting/notice.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/base/script.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/public/css/common.css",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/config/notice.json",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/reward/reward_list.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/routes/reward_callback.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/document.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/script/time.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/time.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/index.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/user/edit_bot.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/user/create_bot.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/user/bot_list.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/chat/monitoring.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/policy.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/routes/web_policy.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/monitoring.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/policy_edit.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/config/policy.json",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/edit_bot.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/create_bot.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/market_list.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/market_write.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/models/point_logs.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/models/rewards.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/schedule.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/dbbackup.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/models/markets.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/models/talks.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/bot_chat.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/routes/api.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/base/chat_tab.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/models/message_logs.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/models/chatrooms.js",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/public/plugin/timeago/timeago.js",
+		"/Users/clsrn1581/Library/Application Support/Sublime Text 3/Packages/User/MongoExec.sublime-settings",
+		"/Users/clsrn1581/Library/Application Support/Sublime Text 3/Packages/MongoExec/MongoExec.sublime-settings",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/views/bot_list.html",
+		"/Users/clsrn1581/Desktop/sublime text3/offtalk/sftp-config.json",
+		"/Users/clsrn1581/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/clsrn1581/Downloads/대회 (1)/정원 만들기/3.out",
+		"/Users/clsrn1581/Downloads/대회 (1)/정원 만들기/2.out",
+		"/Users/clsrn1581/Downloads/대회 (1)/정원 만들기/1.out",
+		"/Users/clsrn1581/Desktop/편식하는기리니/input.txt",
+		"/Users/clsrn1581/Downloads/berryChatServer 2/views/chatting.html",
+		"/Users/clsrn1581/Downloads/berryChatServer 2/app.js",
+		"/Users/clsrn1581/Downloads/berryChatServer/routes/socketio_router.js",
+		"/Users/clsrn1581/Downloads/berryChatServer 2/routes/http_router.js",
+		"/Users/clsrn1581/Downloads/berryChatServer 2/routes/socketio_router.js",
+		"/Users/clsrn1581/Downloads/berryChatServer/routes/http_router.js",
+		"/Users/clsrn1581/Desktop/test.html",
+		"/Users/clsrn1581/Downloads/chatting.svg",
+		"/Users/clsrn1581/Downloads/기리니로고 (1).svg",
+		"/Users/clsrn1581/Desktop/스크린샷 2016-01-21 오후 7.02.01.png",
+		"/Users/clsrn1581/Downloads/무제-2.svg",
+		"/Users/clsrn1581/Desktop/darambot/themeforest-11062969-materil-responsive-admin-dashboard-template/html/lockme.html",
+		"/Users/clsrn1581/Desktop/darambot/themeforest-11062969-materil-responsive-admin-dashboard-template/bower.json",
+		"/Users/clsrn1581/Desktop/guidenyou/new treeing/렌딩 페이지/theme/Templates/contact-style-three.html",
+		"/Users/clsrn1581/Desktop/guidenyou/new treeing/렌딩 페이지/theme/Templates/maintenance.html",
+		"/Users/clsrn1581/Desktop/guidenyou/new treeing/렌딩 페이지/theme/Templates/about-style-three.html",
+		"/Users/clsrn1581/Desktop/guidenyou/new treeing/렌딩 페이지/theme/Templates/contact-style-two.html",
+		"/Users/clsrn1581/Desktop/guidenyou/new treeing/렌딩 페이지/theme/Templates/index-mobile-application.html",
+		"/Users/clsrn1581/Desktop/chrome-app/index.html",
+		"/Users/clsrn1581/Desktop/chrome-app/js/index.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/clsrn1581/Desktop/savoy",
+			"/Users/clsrn1581/Desktop/theDream/theggumim/atelier",
+			"/Users/clsrn1581/Downloads/linux-4.2.5",
+			"/Users/clsrn1581/Desktop/savoy",
+			"<current file>",
+			"/Users/clsrn1581/Desktop/a.txt",
+			"/Users/clsrn1581/Desktop/a",
+			"/Users/clsrn1581/Desktop/savoy ",
+			"/Users/clsrn1581/Desktop/theDream/theggumim/atelier",
+			"/Users/clsrn1581/Desktop/theDream/theggumim/onestop-social-login",
+			"/Users/clsrn1581/Desktop/theDream/theggumim/codecanyon-7906953-woocommerce-sales-countdown/woosalescountdown",
+			"/Users/clsrn1581/Desktop/theDream/ ᆸ꾸미기몰/codecanyon-7906953-woocommerce-sales-countdown/woosalescountdown",
+			"/Users/clsrn1581/Desktop/atelier/",
+			"/Users/clsrn1581/Desktop/atelier/*",
+			"/Users/clsrn1581/Desktop/theDream/ 스퀘어/Atelier_v1.74/Theme\\ Files/atelier/*"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"policy",
+			"form",
+			"bot",
+			"last_login",
+			"api",
+			"send_first",
+			"send",
+			"api",
+			"push",
+			">",
+			"point_log",
+			"send_first_text",
+			"img",
+			"image",
+			"send_text_",
+			"login",
+			"http",
+			"button",
+			"btn",
+			"console",
+			"$inc",
+			"$i",
+			"$inc",
+			"200",
+			"conf",
+			"console",
+			"aws",
+			"image_key",
+			"aws",
+			"chat",
+			"aws",
+			"attendence",
+			"nickname",
+			"exit",
+			"console",
+			"get_dist",
+			"dist",
+			"dis",
+			"_thumbnail",
+			"/api/user/get/by_id",
+			"api",
+			"login",
+			"get_user_id_by_device_id",
+			"readAsDataURL",
+			"target_room_id",
+			"console",
+			"msg-wrap",
+			"form",
+			"target_room_id",
+			"target_id",
+			"load_chat",
+			"chatroom_list",
+			"직접",
+			"700",
+			"weight",
+			"font",
+			"style",
+			"h4",
+			"left",
+			"pull",
+			"item",
+			"navbar",
+			"item",
+			"navbar",
+			"menu",
+			"navigation",
+			"div",
+			"<!-- ",
+			"head",
+			"\n		",
+			"other",
+			"gender",
+			"s",
+			"week_size",
+			"치료 전",
+			"diagnois",
+			"init",
+			"html5rocks",
+			"survey",
+			"s",
+			"put",
+			"survey_save",
+			"todo",
+			"radio9",
+			"radio8",
+			"radio7",
+			"radio6",
+			"radio5",
+			"radio4",
+			"eee",
+			"add",
+			"public",
+			"go_index_btn",
+			"woocommerce-error",
+			"Order Tracking",
+			"sf-icon-cart",
+			"sf-icon-account",
+			"background-position",
+			"sys_read",
+			"nm-footer",
+			"class=\"login\"",
+			"login",
+			"showlogin",
+			"login",
+			"<img src=\"",
+			"[\\n]{2,}",
+			"[\\w]\\n",
+			"[^(?!.)]\\n",
+			"[\\w]\\n",
+			"Recommended C Coding StaRevision.*",
+			"Recommended C Coding StaRevision",
+			"Recommended C Coding StaRevision ...",
+			".*\\- [\\d]+ \\-",
+			".*\\- [\\d+] \\-",
+			".*\\- [\\d] \\-",
+			".*< [\\d] >",
+			".*\\< [\\d] \\>",
+			"\\< [\\d] \\>",
+			"\\< [:digit:] \\>",
+			"< [:digit:] >",
+			"asdf",
+			"---",
+			"nm-blog-categories-wrap",
+			"nm-product-thumbnails-col",
+			"nm-menu-cart-btn",
+			"nm-footer-bar-right",
+			"rest",
+			"email"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n",
+			"\\n\\n",
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 228,
+						"regions":
+						{
+							"active0":
+							{
+								"flags": 48,
+								"icon": "Packages/gitp/icons/1.png",
+								"regions":
+								[
+									[
+										85,
+										85
+									]
+								],
+								"scope": "gitp"
+							}
+						},
+						"selection":
+						[
+							[
+								228,
+								228
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 139.0
+	},
+	"pinned_build_system": "",
+	"project": "sweetweather.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"views/login.html"
+			],
+			[
+				"pa",
+				"package.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
