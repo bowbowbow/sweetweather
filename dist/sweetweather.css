@@ -7,12 +7,14 @@ body{
 	width : 330px;
 }
 .row{
-    padding-top : 50px;
-    padding-bottom : 50px;
+    padding-top : 30px;
+    padding-bottom : 30px;
 }
 svg{
     width : 200px;
     height : 170px;
+    padding-top : 30px;
+    padding-bottom : 30px;
 }
 h2 {
     font-size: 20px;
