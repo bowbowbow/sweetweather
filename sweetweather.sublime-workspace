@@ -227,7 +227,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 228,
+				"buffer_size": 7550,
 				"line_ending": "Unix"
 			}
 		}
@@ -325,6 +325,7 @@
 	},
 	"file_history":
 	[
+		"/Users/clsrn1581/sweetweather/sweetweather.css",
 		"/Users/clsrn1581/Desktop/index.html",
 		"/Users/clsrn1581/Desktop/snap_svg/practice/sun.html",
 		"/Users/clsrn1581/Desktop/snap_svg/Snap.svg-0.4.1/demos/illustrated-infographic-coffee/demo.svg",
@@ -451,8 +452,7 @@
 		"/Users/clsrn1581/Desktop/guidenyou/new treeing/렌딩 페이지/theme/Templates/about-style-three.html",
 		"/Users/clsrn1581/Desktop/guidenyou/new treeing/렌딩 페이지/theme/Templates/contact-style-two.html",
 		"/Users/clsrn1581/Desktop/guidenyou/new treeing/렌딩 페이지/theme/Templates/index-mobile-application.html",
-		"/Users/clsrn1581/Desktop/chrome-app/index.html",
-		"/Users/clsrn1581/Desktop/chrome-app/js/index.js"
+		"/Users/clsrn1581/Desktop/chrome-app/index.html"
 	],
 	"find":
 	{
@@ -642,7 +642,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 228,
+						"buffer_size": 7550,
 						"regions":
 						{
 							"active0":
@@ -652,8 +652,21 @@
 								"regions":
 								[
 									[
-										85,
-										85
+										84,
+										84
+									]
+								],
+								"scope": "gitp"
+							},
+							"active1":
+							{
+								"flags": 48,
+								"icon": "Packages/gitp/icons/2.png",
+								"regions":
+								[
+									[
+										1642,
+										1642
 									]
 								],
 								"scope": "gitp"
@@ -662,8 +675,8 @@
 						"selection":
 						[
 							[
-								228,
-								228
+								962,
+								962
 							]
 						],
 						"settings":
@@ -734,7 +747,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 231.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
