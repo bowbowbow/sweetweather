@@ -19,47 +19,52 @@
         window.onload = function () {
             var sunRays = Snap("#sunHair");
 
-            // Sun events
             raysAnimation();
-            // Infinite animation for the sun rays
+            
             function raysAnimation(){
 
                 sunRays.stop().animate(
-                    { transform: 'r90,320,140'}, // Basic rotation around a point. No frills.
-                    10000, // Nice slow turning rays
+                    { transform: 'r90,320,140'}, 
+                    10000, 
                     function(){ 
-                        sunRays.attr({ transform: 'rotate(0 320 140)'}); // Reset the position of the rays.
-                        raysAnimation(); // Repeat this animation so it appears infinite.
+                        sunRays.attr({ transform: 'rotate(0 320 140)'}); 
+                        raysAnimation(); 
                     }
                 );
             }
 
             var cloud_snow = Snap('#cloud_snow');
-			var flakes = ['rightUp','rightDown','leftUp', 'leftDown', 'center']; // Setup our snow. Matches IDs in SVG.
+			var flakes = ['rightUp','rightDown','leftUp', 'leftDown', 'center']; 
 			
 			snow();
-			 
+	
 			function snow(){
-
 				for (var i=0; i<flakes.length; i++){
 
 					var flakeId = flakes[i];
-					var flake = cloud_snow.select('#'+flakeId); // Select each individual flake from our list
-					var cx = flake.getBBox().cx; // Get its initial coordinates
+					var flake = cloud_snow.select('#'+flakeId); 
+					var cx = flake.getBBox().cx; 
 					var cy = flake.getBBox().cy;
 
-					animateFlake(flake, cx, cy); // Send it to be infinitely animated
+					console.log("("+cx +","+cy+")");
+					
+					animateFlake(flake, cx, cy); 
 				}
 			}
-			
-			function animateFlake(flake, cx, cy){
-				flake.attr({ transform: 't0 -200'}); // Reset the flake's position to behind the cloud
-				var timing = getRandomArbitrary(2000,10000); // Random transition time between times we specify
-		    	var deg = getRandomArbitrary(-360,360); // Random rotation (allows it to go either direction)
-		    	// Animate the flake and do a new animation for it when it's done (repeat this function)
-				flake.stop().animate({ transform: 't0 200 r'+deg+' '+cx+' '+cy}, timing, function(){ animateFlake(flake, cx, cy);});
-			}
 
+			function animateFlake(flake, cx, cy){
+				flake.attr({ 
+					transform: 't0 -150',
+					opacity : "1.0"
+				}); 
+				var timing = getRandomArbitrary(2000,8000); 
+		    	var deg = getRandomArbitrary(-360,360); 
+				
+				flake.stop().animate({ 
+					transform: 't0 300 r'+deg+' '+cx+' '+cy,
+					opacity : "0.3"
+				}, timing, function(){ animateFlake(flake, cx, cy);});
+			}
 
 			var cloud_lightning = Snap('#_8');
 
@@ -76,8 +81,7 @@
 
 	            	thunder.stop().animate({ opacity : newOpacity }, 100, strike);
 	            	strikeCount++;
-	            }
-	            else {
+	            }else {
 	            	strikeCount = 0;
 	            	thunder.attr({
 	            		opacity : 0
@@ -86,9 +90,41 @@
 	            	var x = getRandomArbitrary(-150,150);
 	            	thunder.attr({ transform: 't'+x+',0'});
 	            }
-           }
+           	}
 
-			// Lets us get random numbers from within a range we specify. From MDN docs.
+           	var night_moon = Snap("#_2");
+           	var moon = night_moon.select("#moon");
+           	var dis  = 50, moon_updown_flag = true;
+
+           	function moon_float(moon){
+           		console.log("moon float is called!");
+           		console.log(moon_updown_flag);
+
+           		var timing = getRandomArbitrary(2500,3000); 
+		    	
+		    	
+		    	if(moon_updown_flag){
+		    		moon_updown_flag = !moon_updown_flag;
+
+           			dis = getRandomArbitrary(30,50); 
+	           		moon.stop().animate({ 
+						transform: 't0 '+dis,
+					}, timing, function(){ 
+						setTimeout(moon_float(moon), getRandomArbitrary(500,1000)+3000);
+					});
+           		}else{
+           			moon_updown_flag = !moon_updown_flag;
+
+           			moon.stop().animate({ 
+						transform: 't0 -'+dis,
+					}, timing, function(){ 
+						setTimeout(moon_float(moon), getRandomArbitrary(500,1000)+3000);
+					});
+           		}
+           	}
+           	moon_float(moon);
+
+
 			function getRandomArbitrary(min, max) {
 			  return Math.random() * (max - min) + min;
 			}
